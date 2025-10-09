@@ -1,4 +1,4 @@
-# Core environment
+# Core
 jupyterlab
 ipython
 tqdm
@@ -9,7 +9,7 @@ seaborn
 scipy
 scikit-learn
 
-# Geospatial & visualization
+# Geospatial & viz
 geopandas
 matplotlib-scalebar
 windrose
@@ -18,6 +18,3 @@ graphviz
 
 # Structural equation modeling
 semopy
-
-# Utilities
-warnings
