@@ -8,3 +8,7 @@ install.packages("leaflet")
 install.packages("data.table")
 install.packages("bigleaf")
 install.packages("lubridate")
+
+# Register the R kernel for Jupyter
+IRkernel::installspec(user = FALSE)
+
