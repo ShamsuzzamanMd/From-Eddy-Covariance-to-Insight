@@ -20,5 +20,4 @@ graphviz
 semopy
 
 # Utilities
-google-colab
 warnings
