@@ -11,8 +11,13 @@ knitr::opts_chunk$set(echo = TRUE)
 # 1 Packages
 
 ```{r}
-library(REddyProc)
-library(ggplot2)
+library(REddyProc)              # Load REddyProc
+library(lubridate)              # Handle date-time data
+library(tidyverse)              # Data manipulation and visualization
+library(dplyr)                  # Data wrangling
+library(bigleaf)                # Canopy and flux calculations
+library(data.table)             # Efficient data handling
+library(ggplot2)                # Plotting and visualization
 ```
 
 
@@ -207,4 +212,5 @@ EddyObj$sPlotDiurnalCycle("GPP_single_ust_Tmean_f", Dir=resdir)
 #EddyObj$sPlotHHFluxes("NEE_single_ust_f")
 #EddyObj$sPlotDiurnalCycle("GPP_single_ust_f")
 #EddyObj$sPlotDiurnalCycle("GPP_single_ust_Tmean_f")
+
 ```
