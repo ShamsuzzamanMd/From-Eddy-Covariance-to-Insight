@@ -115,7 +115,7 @@ EddyData$Tmean <- rowMeans(EddyData[,c("Tair","Tsoil")], na.rm=TRUE)
 # 🔹 **4.1 Initialize REddyProc Object**
 -------------------------------------------
 ```{r}
-# initialize new REddyProc object with Hyytiälä data and location
+# initialize new REddyProc object with site data and location
 EddyObj <- sEddyProc$new(ID=siteName, Data=EddyData, ColNames=c("NEE","Rg","Tair","Tsoil","Tmean","VPD","Ustar"), 
                          LatDeg=siteLat, LongDeg=siteLon, TimeZoneHour=siteTz)
 ```
@@ -260,4 +260,5 @@ EddyObj$sPlotDiurnalCycle("GPP_single_ust_Tmean_f", Dir=resdir)
 #EddyObj$sPlotHHFluxes("NEE_single_ust_f")
 #EddyObj$sPlotDiurnalCycle("GPP_single_ust_f")
 #EddyObj$sPlotDiurnalCycle("GPP_single_ust_Tmean_f")
+
 ```
