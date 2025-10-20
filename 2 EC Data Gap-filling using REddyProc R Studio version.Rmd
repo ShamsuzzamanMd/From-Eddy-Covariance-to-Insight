@@ -260,5 +260,4 @@ EddyObj$sPlotDiurnalCycle("GPP_single_ust_Tmean_f", Dir=resdir)
 #EddyObj$sPlotHHFluxes("NEE_single_ust_f")
 #EddyObj$sPlotDiurnalCycle("GPP_single_ust_f")
 #EddyObj$sPlotDiurnalCycle("GPP_single_ust_Tmean_f")
-
 ```
